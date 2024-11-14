@@ -70,7 +70,7 @@ updateEmployeeCount(1)
 // DELETE EMPLOYEE
 
 function deleteEmployee(row) { 
-    if (confirm('Are you sure you want to delete this entry?')) { 
+    if (confirm('Are you sure you want to delete this employee entry?')) { 
         row.remove() 
         updateEmployeeCount(-1) 
     } 
